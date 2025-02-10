@@ -1,3 +1,9 @@
+# SynapseAI - Expo Mobile App
+
+A cross-platform mobile application built with Expo and React Native that features AI chat integration, focus timer, and study materials management.
+
+## 🚀 Project Structure
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
