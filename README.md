@@ -1,56 +1,107 @@
-# SynapseAI - Expo Mobile App
+# SynapseAI - Transforming Education with EdTech
 
-A cross-platform mobile application built with Expo and React Native that features AI chat integration, focus timer, and study materials management.
+## 📌 Project Overview
 
-## 🚀 Project Structure
+SynapseAI is a cutting-edge EdTech solution designed to assist students and educators through AI-powered study assistance, structured content organization, and a focused study environment.
 
-# Welcome to your Expo app 👋
+## 🚀 Key Features
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+1. **Authentication:**
+   - Secure login
+   - Session management
 
-## Get started
+2. **College Space:**
+   - Department organization
+   - Semester structure
+   - Branch management
 
-1. Install dependencies
+3. **Study Space:**
+   - PDF management
+   - Notes organization
+   - Material categorization
 
+4. **AI Assistant:**
+   - Real-time queries
+   - Context-aware help
+   - PDF content analysis
+
+5. **Focus Mode:**
+   - Pomodoro timer
+   - Progress tracking
+   - Analytics dashboard
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React Native (Expo)
+- **Backend:** Supabase
+- **Storage:** AsyncStorage & Supabase
+- **PDF Support:** react-native-pdf
+- **Navigation:** Expo Router
+
+## 🎨 UI/UX Design
+
+- **Theme:** Dark Mode Default
+- **Color Scheme:**
+  - Primary: #2B95DC
+  - Background: #000000
+  - Text: #FFFFFF
+- **Navigation:** Tab-based
+- **Layout:** Fully responsive
+
+## 🗄️ Database Structure
+
+1. Users
+2. Study Materials
+3. Focus Sessions
+4. Schedules
+
+## 🔄 Development Status
+
+- **Core Features:** Implemented ✅
+- **UI Design:** Complete 🎨
+- **Database:** Structured 📊
+- **Testing:** Ongoing 🛠️
+
+## 📅 Future Roadmap
+
+- Voice Commands 🎙️
+- Study Groups 📚
+- Enhanced Analytics 📈
+- Smart Scheduling 🗓️
+- Content Recommendations 🔍
+
+## 📲 Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MadhavDGS/SynapseAI.git
+   cd SynapseAI
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the development server:
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## 🎥 Demo Screenshots
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Home Dashboard
+2. College Space
+3. AI Chat
+4. Focus Mode
+5. PDF Viewer
+6. Study Materials
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📜 License
 
-## Get a fresh project
+This project is licensed under the MIT License.
 
-When you're ready, run:
+## 🌎 Community & Support
+- [GitHub Issues](https://github.com/MadhavDGS/SynapseAI/issues)
+- [Expo Discord](https://chat.expo.dev)
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
